@@ -69,7 +69,7 @@
            // var numplate = x
             console.log("getting Details...")
             console.log(numplate)
-            xhttp.open("GET", `https://www.regcheck.org.uk/api/reg.asmx/CheckIndia?RegistrationNumber=${numplate}&username=harc333`, false);
+            xhttp.open("GET", `https://www.regcheck.org.uk/api/reg.asmx/CheckIndia?RegistrationNumber=${numplate}&username=<username>`, false);
             xhttp.onreadystatechange = function () {
                     if (xhttp.readyState == 4 && xhttp.status == 200)
                     {
